@@ -25,7 +25,7 @@ $consumer = array(
 );
 
 include_once 'config.inc.php';
-include_once 'oauth-php/library/OAuthStore.php';
+include_once './library/OAuthStore.php';
 
 // 注册消费方
 $store = OAuthStore::instance('MySQL', $dbOptions);
