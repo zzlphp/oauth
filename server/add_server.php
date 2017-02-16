@@ -16,8 +16,8 @@ $user_id = 1;
 
 // 服务器描述信息
 $server = array(
-    'consumer_key'      => '35dea30fe2d7d36991235c0f4b8df591058a5445b',
-    'consumer_secret'   => '3f34c77752767636ec28bc2fc4fb279a',
+    'consumer_key'      => '127e2a5d9b507a8eb5a0b70c09e56fad058a54e93',
+    'consumer_secret'   => 'ff2920e652b5698c57edc8b1af88dc79',
     'server_uri'        => 'http://o.zzlphp.com/',
     'signature_methods' => array('HMAC-SHA1', 'PLAINTEXT'),
     'request_token_uri' => 'http://o.zzlphp.com/request_token.php',
