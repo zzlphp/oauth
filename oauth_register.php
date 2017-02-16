@@ -24,11 +24,12 @@ $consumer = array(
     'application_commercial' => 0
 );
 
-include_once 'config.inc.php';
+include_once './config.inc.php';
 include_once './library/OAuthStore.php';
 
 // 注册消费方
 $store = OAuthStore::instance('MySQL', $dbOptions);
+var_dump($store);exit;
 $key   = $store->updateConsumer($consumer, $user_id);
 
 // 获取消费方信息
