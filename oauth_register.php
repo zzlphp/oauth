@@ -29,9 +29,8 @@ include_once './library/OAuthStore.php';
 
 // 注册消费方
 $store = OAuthStore::instance('MySQL', $dbOptions);
-var_dump($store);exit;
 $key   = $store->updateConsumer($consumer, $user_id);
-
+var_dump($key);exit;
 // 获取消费方信息
 $consumer = $store->getConsumer($key, $user_id);
 
