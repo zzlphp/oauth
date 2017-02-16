@@ -7,7 +7,7 @@
  */
 
 include_once './config.inc.php';
-include_once './library/OAuthStore.php';
+include_once '../library/OAuthStore.php';
 
 $store = OAuthStore::instance('MySQL', $dbOptions);
 
