@@ -420,7 +420,7 @@ class Oauth2
     }
 
     public function get_uid() {
-        $hostUrl = 'http://api.zzlphp.com/home/resource/userinfo?type=mumayi';
+        $hostUrl = 'http://www.zzlphp.com/?json=1';
         $params = array(
             'access_token' => $this->access_token,
         );
