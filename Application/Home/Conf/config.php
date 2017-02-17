@@ -42,11 +42,11 @@ return array(
 
     'SECRETKYE' => 'Mumayi!@#',    //下面是一些网站自定义的项目。可以根据自己的情况来写或者不写
     //session 有效期
-    'SESSION_EXPIRES' => 1200,
+    'SESSION_EXPIRES' => 12000,
     //key 有效期
     'PASS_KEY_EXPIRES' => 86400,
     //key 有效期
-    'PHONE_KEY_EXPIRES' => 300,
+    'PHONE_KEY_EXPIRES' => 12000,
     //key 加密 整型 数字 必须为 int
     'PASS_KEY_CALC' => 1314,
 );
