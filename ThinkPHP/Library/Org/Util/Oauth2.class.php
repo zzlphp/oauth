@@ -149,7 +149,6 @@ class Oauth2
         }
 
         $response = $this->oAuthRequest($this->accessTokenURL(), 'POST', $params);
-        var_dump($response);die;
         $token = json_decode($response, true);
 
         if ( is_array($token) && !isset($token['error']) ) {
