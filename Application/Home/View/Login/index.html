@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="子良 张子良 280229278" />
+<meta name="description" content="子良个人网站 张子良个人网站 280229278 子良 张子良 zzlphp php zzl">
+<meta name="author" content="子良个人网站">
+<title>子良个人网站</title>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/clicki.web.css?V=20120501" media="screen" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/clicki.loginandreg.css?V=20120501" media="screen" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/clicki.webkitanimation.css?V=20120501" media="screen" />
+
+<script type="text/javascript" src="__PUBLIC__/js/login.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/checkcard.js"></script>
+
+<!--[if lte IE 9 ]><link rel="stylesheet" href="__PUBLIC__/css/clicki.iehotfix.css?V=20120501" /><![endif]-->
+<!--[if lte IE 9]>
+<style>
+body {background:#2f7fb2 url(__PUBLIC__/images/topbg_01.png?V=20120501) top center no-repeat;}
+html{height:100%;overflow:hidden;background:#2f7fb2 url(__PUBLIC__/images/topbg_01.png?V=20120501) top center no-repeat;}
+</style>
+<![endif]-->
+</head>
+<body>
+
+<div class="theCenterBox" style="">
+  <div class="theLoginBox">
+    <div class="loginTxt">登录</div>
+    <div class="theLoginArea" id="loginBox">
+      <form id="leftForm" action="login.html" method="post">
+        <p style="position: relative;">
+          <label for="LoginForm_email">帐号：</label>
+          <input placeholder="请输入您的账号" name="LoginForm[email]" id="LoginForm_email" type="text" maxlength="255" />
+          <span id="ck_uname">请输入您的账号</span> </p>
+        <p style="position: relative;">
+          <label for="LoginForm_password">密码：</label>
+          <input placeholder="请输入您的密码" name="LoginForm[password]" id="LoginForm_password" type="password" maxlength="16" />
+          <span id="ck_pwd">请输入您的密码</span> </p>
+          <div class="box" style="padding-bottom: 50px;">
+              {$res}
+          </div>
+        <div class="loginSubmitBnt fixPadding">
+          <div>
+
+            <input id="ytautoLogin" type="hidden" value="0" name="LoginForm[rememberMe]" />
+
+
+            <div class="login_submit">
+              <input name="userSubmit" id="submit_button" class="theSubmitButton" value="" type="button" />
+                <div><a style="float: left;font-size: 10px;" href="/home/login/reg" title="马上注册">马上注册?</a></div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script language="JavaScript">
+    $(function(){
+        $("#submit_button").click(function() {
+            var name = $("#LoginForm_email").val();
+            var pwd = $("#LoginForm_password").val();
+
+            if(name=='' || name=='请输入您的账号'){
+                $("#ck_uname").css("display","block");
+                return false;
+            }else{
+                $("#ck_uname").css("display","none");
+            }
+
+            if(pwd=='' || pwd=='请输入您的密码'){
+                $("#ck_pwd").css("display","block");
+                return false;
+            }else{
+                $("#ck_pwd").css("display","none");
+            }
+            var geetest_challenge = $("input[name='geetest_challenge']").val();
+            var geetest_validate = $("input[name='geetest_validate']").val();
+            var geetest_seccode = $("input[name='geetest_seccode']").val();
+
+
+            $.post('/home/login/sublog/',{'username':name,'password':pwd,'geetest_challenge':geetest_challenge,'geetest_validate':geetest_validate,'geetest_seccode':geetest_seccode},function(data){
+                var response = $.parseJSON(data);
+                if(response.num=='success'){
+                    window.location='/home/list/index';
+                }else{
+                    alert(response.msg);
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

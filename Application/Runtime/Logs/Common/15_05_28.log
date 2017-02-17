@@ -1,0 +1,456 @@
+[ 2015-05-28T01:22:38+08:00 ] 121.42.0.37 /webdav/b5d04dc2.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Webdav
+
+[ 2015-05-28T01:22:41+08:00 ] 121.42.0.37 /admin/control/wxpay.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-28T01:22:43+08:00 ] 121.42.0.37 /shop/templates/default/store/goods.ncsaleing.php?a=var_dump&b=vulnerable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Shop
+
+[ 2015-05-28T01:22:47+08:00 ] 121.42.0.37 /jmx-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Jmx-console
+
+[ 2015-05-28T01:22:49+08:00 ] 121.42.0.37 /web-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Web-console
+
+[ 2015-05-28T01:22:51+08:00 ] 121.42.0.37 /invoker/JMXInvokerServlet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Invoker
+
+[ 2015-05-28T01:22:53+08:00 ] 121.42.0.37 /invoker/EJBInvokerServlet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Invoker
+
+[ 2015-05-28T01:22:55+08:00 ] 121.42.0.37 /status/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Status
+
+[ 2015-05-28T01:22:58+08:00 ] 121.42.0.37 /server-status/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Server-status
+
+[ 2015-05-28T01:23:06+08:00 ] 121.42.0.37 /login.action?debug=browser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Login
+
+[ 2015-05-28T01:23:08+08:00 ] 121.42.0.37 /admin.action?debug=browser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-28T01:23:11+08:00 ] 121.42.0.37 /index.action?debug=browser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-28T01:23:13+08:00 ] 121.42.0.37 /login.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Login
+
+[ 2015-05-28T01:23:15+08:00 ] 121.42.0.37 /admin.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-28T01:23:16+08:00 ] 121.42.0.37 /index.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-28T01:23:27+08:00 ] 121.42.0.37 /index.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-28T01:23:30+08:00 ] 121.42.0.37 /login.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Login
+
+[ 2015-05-28T01:23:33+08:00 ] 121.42.0.37 /admin.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-28T01:23:53+08:00 ] 121.42.0.37 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-05-28T01:23:58+08:00 ] 121.42.0.37 /phpmyadmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2015-05-28T01:24:01+08:00 ] 121.42.0.37 /phpMyAdmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-05-28T01:24:03+08:00 ] 121.42.0.37 /pma/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Pma
+
+[ 2015-05-28T01:24:07+08:00 ] 121.42.0.37 /pmd/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Pmd
+
+[ 2015-05-28T01:47:24+08:00 ] 203.195.221.92 /phpMyAdmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-05-28T01:47:24+08:00 ] 203.195.221.92 /pma/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Pma
+
+[ 2015-05-28T01:47:24+08:00 ] 203.195.221.92 /myadmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Myadmin
+
+[ 2015-05-28T02:18:35+08:00 ] 140.112.238.173 /phpMyAdmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-05-28T02:18:36+08:00 ] 140.112.238.245 /pma/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Pma
+
+[ 2015-05-28T03:20:57+08:00 ] 185.81.152.171 /phpMyAdmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-05-28T03:20:58+08:00 ] 185.81.152.171 /pma/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Pma
+
+[ 2015-05-28T03:20:58+08:00 ] 185.81.152.171 /myadmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Myadmin
+
+[ 2015-05-28T04:14:41+08:00 ] 178.21.17.106 /user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:User
+
+[ 2015-05-28T04:17:18+08:00 ] 91.212.124.160 /rom-0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Rom-0
+
+[ 2015-05-28T04:17:20+08:00 ] 91.212.124.160 /tmUnblock.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:TmUnblock
+
+[ 2015-05-28T04:17:20+08:00 ] 91.212.124.160 /hndUnblock.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:HndUnblock
+
+[ 2015-05-28T07:15:40+08:00 ] 94.102.49.168 /cgi-bin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Cgi-bin
+
+[ 2015-05-28T07:36:51+08:00 ] 101.226.168.233 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-05-28T08:10:27+08:00 ] 66.249.64.185 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-05-28T08:23:54+08:00 ] 94.102.49.168 /cgi-bin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Cgi-bin
+
+[ 2015-05-28T12:26:37+08:00 ] 112.124.36.187 /extjs/5.0.0/examples/feed-viewer/feed-proxy.php?feed=http/../../../../../../../../../../../etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Extjs
+
+[ 2015-05-28T13:21:46+08:00 ] 112.124.36.187 /extjs/5.0.0/examples/feed-viewer/feed-proxy.php?feed=http/../../../../../../../../../../../etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Extjs
+
+[ 2015-05-28T15:07:43+08:00 ] 120.26.55.211 /examples/feed-viewer/feed-proxy.php?feed=http/../feed-proxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Examples
+
+[ 2015-05-28T15:48:04+08:00 ] 199.48.147.141 /dexter/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Dexter
+
+[ 2015-05-28T17:05:25+08:00 ] 121.42.0.30 /examples/feed-viewer/feed-proxy.php?feed=http/../feed-proxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Examples
+
+[ 2015-05-28T17:05:28+08:00 ] 121.42.0.30 /examples/app/feed-viewer/feed-proxy.php?feed=http/../feed-proxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Examples
+
+[ 2015-05-28T17:05:30+08:00 ] 121.42.0.30 /build/examples/feed-viewer/feed-proxy.php?feed=http/../feed-proxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Build
+
+[ 2015-05-28T17:05:32+08:00 ] 121.42.0.30 /build/examples/app/feed-viewer/feed-proxy.php?feed=http/../feed-proxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Build
+
+[ 2015-05-28T20:13:03+08:00 ] 66.249.64.63 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-05-28T21:07:54+08:00 ] 124.122.68.235 /phph/php/ph.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Phph
+
+[ 2015-05-28T21:07:55+08:00 ] 180.183.40.97 /phpMyAdmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-05-28T21:07:55+08:00 ] 180.183.40.97 /pma/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Pma
+
+[ 2015-05-28T21:07:57+08:00 ] 124.122.68.235 /myadmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Myadmin
+
+[ 2015-05-28T21:39:10+08:00 ] 121.42.0.15 /webdav/b5d04dc2.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Webdav
+
+[ 2015-05-28T21:39:11+08:00 ] 121.42.0.15 /admin/control/wxpay.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-28T21:39:13+08:00 ] 121.42.0.15 /shop/templates/default/store/goods.ncsaleing.php?a=var_dump&b=vulnerable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Shop
+
+[ 2015-05-28T21:39:16+08:00 ] 121.42.0.15 /jmx-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Jmx-console
+
+[ 2015-05-28T21:39:17+08:00 ] 121.42.0.15 /web-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Web-console
+
+[ 2015-05-28T21:39:18+08:00 ] 121.42.0.15 /invoker/JMXInvokerServlet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Invoker
+
+[ 2015-05-28T21:39:19+08:00 ] 121.42.0.15 /invoker/EJBInvokerServlet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Invoker
+
+[ 2015-05-28T21:39:21+08:00 ] 121.42.0.15 /status/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Status
+
+[ 2015-05-28T21:39:22+08:00 ] 121.42.0.15 /server-status/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Server-status
+
+[ 2015-05-28T21:39:26+08:00 ] 121.42.0.15 /login.action?debug=browser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Login
+
+[ 2015-05-28T21:39:27+08:00 ] 121.42.0.15 /admin.action?debug=browser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-28T21:39:28+08:00 ] 121.42.0.15 /index.action?debug=browser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-28T21:39:29+08:00 ] 121.42.0.15 /login.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Login
+
+[ 2015-05-28T21:39:30+08:00 ] 121.42.0.15 /admin.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-28T21:39:31+08:00 ] 121.42.0.15 /index.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-28T21:39:37+08:00 ] 121.42.0.15 /index.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-28T21:39:38+08:00 ] 121.42.0.15 /login.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Login
+
+[ 2015-05-28T21:39:39+08:00 ] 121.42.0.15 /admin.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-28T21:39:47+08:00 ] 121.42.0.15 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-05-28T21:39:50+08:00 ] 121.42.0.15 /phpmyadmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2015-05-28T21:39:52+08:00 ] 121.42.0.15 /phpMyAdmin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-05-28T21:39:53+08:00 ] 121.42.0.15 /pma/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Pma
+
+[ 2015-05-28T21:39:55+08:00 ] 121.42.0.15 /pmd/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:Pmd
+
+[ 2015-05-28T23:06:08+08:00 ] 121.42.0.14 /webscan38502863.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Webscan38502863
+

@@ -1,49 +1,48 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ziziliang
- * Date: 2017/2/16
- * Time: 下午2:07
- */
+// +----------------------------------------------------------------------
+// | ThinkPHP [ WE CAN DO IT JUST THINK ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2006-2014 http://thinkphp.cn All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: liu21st <liu21st@gmail.com>
+// +----------------------------------------------------------------------
 
-if(isset($_GET['req']) && ($_GET['req'] == 1)){
-    include_once 'config.inc.php';
-    include_once './library/OAuthStore.php';
-    include_once './library/OAuthRequester.php';
 
-    $store = OAuthStore::instance('MySQL', $dbOptions);
+//xhprof_enable(XHPROF_FLAGS_CPU + XHPROF_FLAGS_MEMORY);
+// 应用入口文件
 
-    // 用户Id, 必须为整型
-    $user_id = 1;
+// 检测PHP环境
+if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
-    // 消费者key
-    $consumer_key = '35dea30fe2d7d36991235c0f4b8df591058a5445b';
 
-    // 从服务器获取未授权的token
-    $token = OAuthRequester::requestRequestToken($consumer_key, $user_id);
-    var_dump($token);
-    die();
-}
-else{
-    ?>
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-    <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>测试页面</title>
-    </head>
+// 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
+define('APP_DEBUG',True);
 
-    <body>
-    <p>消费放测试页面，点击下面的按钮开始测试</p>
-    <input type="button" name="button" value="Click Me" id="RequestBtn"/>
-    <script type="text/javascript">
-        document.getElementById('RequestBtn').onclick = function(){
-            window.location = 'index.php?req=1';
-        }
-    </script>
+//// 定义应用目录
+//define('APP_PATH','./Application/');
+//
+//// 引入ThinkPHP入口文件
+//require './ThinkPHP/ThinkPHP.php';
 
-    </body>
-    </html>
-    <?php
-}
-?>
+define( 'APP_PATH', dirname(__FILE__).'/Application/' );
+require dirname( __FILE__).'/ThinkPHP/ThinkPHP.php';
+
+
+
+/*
+$xhprof_data = xhprof_disable();
+include_once "xhprof_lib/utils/xhprof_lib.php";
+include_once "xhprof_lib/utils/xhprof_runs.php";
+
+$xhprof_runs = new XHProfRuns_Default();
+$run_id = $xhprof_runs->save_run($xhprof_data, "xhprof");
+
+
+$href = "http://www.zzlphp.com/xhprof_html/index.php?run=".$run_id."&source=xhprof";
+
+//echo "<a href='".$href."'>性能测试</a>";
+//echo "http://test.zzlphp.com/xhprof_html/index.php?run=".$run_id."&source=xhprof";
+// 亲^_^ 后面不需要任何代码了 就是如此简单
+*/
