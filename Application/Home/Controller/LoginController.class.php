@@ -16,7 +16,6 @@ class LoginController extends Controller{
 
     public function index(){
         $this->oauth = new Oauth2('1000','zhangziliang');
-        var_dump($this->oauth);
         $keys = array();
         //keys 数组 赋值 code 值 (换取token, 必须参数)
         $keys['code'] = $_GET['code'];
@@ -25,7 +24,6 @@ class LoginController extends Controller{
         //根据 code 获取 token
         //var_dump( $token = $this->oauth->getAccessToken( 'code', $keys )) ;
         $token = $this->oauth->getAccessToken( 'code', $keys ) ;
-        var_dump( $token);exit;
         //现在已经得到token，并且将access_token写到对象里了。就可以请求资源了
         var_dump( $this->oauth->get_uid());
         die;
