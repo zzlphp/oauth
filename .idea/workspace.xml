@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="131b153a-6deb-4aee-a59e-1145b065139b" name="Default" comment="">
+    <list default="true" id="131b153a-6deb-4aee-a59e-1145b065139b" name="Default" comment="oauth">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
     </list>
@@ -416,7 +416,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487223536333</updated>
       <workItem from="1487223537571" duration="11004000" />
-      <workItem from="1487306304184" duration="243000" />
+      <workItem from="1487306304184" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="oauth">
       <created>1487223707121</created>
@@ -516,11 +516,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487299063761</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="oauth">
+      <created>1487306573284</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1487306573284</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11247000" />
+    <option name="totallyTimeSpent" value="11926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
