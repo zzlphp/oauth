@@ -15,6 +15,7 @@ class LoginController extends Controller{
     }
 
     public function index(){
+        var_dump($_GET);
         $this->oauth = new Oauth2('1000','zhangziliang');
         $keys = array();
         //keys 数组 赋值 code 值 (换取token, 必须参数)
