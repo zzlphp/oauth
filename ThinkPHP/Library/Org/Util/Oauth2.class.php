@@ -44,7 +44,7 @@ class Oauth2
     public $url;
 
     //设置 基础链接
-    public $host = "http://server.ruanwenwu.cn/index.php/home/oauth/";
+    public $host = "http://api.zzlphp.com/home/oauth/";
 
     //请求超时时间
     public $timeout = 30;
@@ -421,7 +421,7 @@ class Oauth2
     }
 
     public function get_uid() {
-        $hostUrl = 'http://server.ruanwenwu.cn/index.php/home/resource/userinfo?type=mumayi';
+        $hostUrl = 'http://api.zzlphp.com/home/resource/userinfo?type=mumayi';
         $params = array(
             'access_token' => $this->access_token,
         );
