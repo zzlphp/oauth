@@ -420,7 +420,7 @@ class Oauth2
     }
 
     public function get_uid() {
-        $hostUrl = 'http://www.zzlphp.com/?json=1';
+        $hostUrl = 'http://api.zzlphp.com/home/resource/index';
         $params = array(
             'access_token' => $this->access_token,
         );
