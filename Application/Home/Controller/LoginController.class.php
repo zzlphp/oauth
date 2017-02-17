@@ -16,11 +16,12 @@ class LoginController extends Controller{
 
     public function index(){
         $this->oauth = new Oauth2('1000','zhangziliang');
+        var_dump($this->oauth);
         $keys = array();
         //keys 数组 赋值 code 值 (换取token, 必须参数)
         $keys['code'] = $_GET['code'];
         //keys 数组 赋值 回调地址信息 (换取token, 必须参数)
-        $keys['redirect_uri'] = 'http://o.zzlphp.com/home/login?type=mumayidev';
+        $keys['redirect_uri'] = 'http://o.zzlphp.com/home/login/index?type=mumayidev';
         //根据 code 获取 token
         //var_dump( $token = $this->oauth->getAccessToken( 'code', $keys )) ;
         $token = $this->oauth->getAccessToken( 'code', $keys ) ;
